@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/node_modules": true,
+    ".githooks": true,
+    "angular.io/.firebaserc": true,
+    "angular.io/.eslintrc.js": true
+  }
+}
