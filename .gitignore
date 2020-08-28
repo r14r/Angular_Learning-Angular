@@ -2,3 +2,4 @@ angular
 angular.io
 
 .env/
+node_modules/
