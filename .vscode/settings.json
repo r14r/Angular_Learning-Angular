@@ -1,9 +1,38 @@
 {
-  "editor.formatOnSave": true,
-  "files.exclude": {
-    "**/node_modules": true,
-    ".githooks": true,
-    "angular.io/.firebaserc": true,
-    "angular.io/.eslintrc.js": true
-  }
+	"editor.formatOnSave": true,
+	"editor.tabSize": 4,
+
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 4,
+	"prettier.printWidth": 100,
+	"prettier.trailingComma": "all",
+	"prettier.semi": true,
+
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true,
+		"**/.gitignore": true,
+		"**/node_modules": true,
+		".githooks": true,
+		"**/e2e": true,
+		"**/karma.conf.js": true,
+		"**/tsconfig.json": true,
+		"**/tsconfig.spec.json": true,
+		"**/tsconfig.app.json": true,
+		"**/tslint.json": true,
+		"**/angular.json": true,
+		"**/package.json": true,
+		"**/yarn.lock": true,
+		"**/test.ts": true
+	},
+	"workspace.isHidden": true,
+	"explorerExclude.backup": null
 }
